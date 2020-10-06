@@ -44,16 +44,8 @@
 
 int main()
 {
-    Unit fighter;
-
-    printf("m_hp = %d\n", fighter.m_hp);
-    printf("m_str = %d\n", fighter.m_str);
-    printf("m_mag = %d\n", fighter.m_mag);
-    printf("m_tec = %d\n", fighter.m_tec);
-    printf("m_spd = %d\n", fighter.m_spd);
-    printf("m_def = %d\n", fighter.m_def);
-    printf("m_luc = %d\n", fighter.m_luc);
-    printf("m_mde = %d\n", fighter.m_mde);
+    Unit unit;
+    unit.PrintStatus();
 
     system("pause");
     return 0;

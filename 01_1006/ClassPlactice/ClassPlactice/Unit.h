@@ -7,6 +7,10 @@ public:
     Unit();
 
     ~Unit();
+
+    void PrintStatus();
+
+private:
     int m_hp;
     int m_str;
     int m_mag;
@@ -16,7 +20,6 @@ public:
     int m_luc;
     int m_mde;
 };
-
 
 #endif
 
